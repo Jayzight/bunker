@@ -1,0 +1,187 @@
+
+html {
+    height: 100%;
+}
+
+body {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 15pt;
+  font-weight: normal;/* For browsers that do not support gradients */
+ 
+  background: linear-gradient(180deg, skyblue, white); /* Standard syntax */
+}
+
+.flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: none;
+    align-content: center;    
+    justify-content: center;
+  }
+.flex-container2 > div {
+    background-color: white;
+    margin: 15px;
+    padding: 5px;
+    font-size: 20px;
+    font-size: 12pt;
+    margin:50pt;
+  }
+
+#myProgress {
+  width: 100%;
+  background-color: grey;
+}
+
+#myBar {
+  width: 100%;
+  height: 30px;
+  background-color:green;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    align-content: center;    
+    justify-content: center;
+  }
+.flex-container > div {
+    background-color: none;
+    width:200px;
+    margin: 10px;
+    padding: 2px;
+    font-size: 20px;
+    font-size: 12pt;
+
+  }
+
+.flex-container3 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  align-content: center;    
+  justify-content: center;
+}
+.flex-container3 > div {
+    background-color: black;
+    margin: 15px;
+    padding: 5px;
+    font-size: 20px;
+    font-size: 12pt;
+    margin:50pt;
+}
+
+
+.main {
+  margin: 100px auto;
+  text-align: center;
+}
+
+#rcorners {
+  border-radius: 25px;
+  margin: 10px;
+  border: 2px solid black;
+  background:black;
+  padding: 4px; 
+  width: 200px;
+  height: 85px;
+  align-content: center; 
+}
+#population {
+  color:white;
+  font-size:12pt;
+}
+#death {
+  color:white;
+  font-size:12pt;
+}
+#hunger {
+  color:white;
+  font-size:12pt;
+}
+#health {
+  color:white;
+  font-size:12pt;
+}
+
+
+button {
+  padding: 20px;
+  font-size: 18pt;
+  border-radius: 12px;
+  background: linear-gradient(180deg, lightgreen, skyblue);
+  border: 3px solid black;
+}
+
+#sys {
+  font-size: 20pt;
+  font-family: impact;
+}
+
+#explaintext {
+  line-height:0.5;
+  font-size:10pt;
+}
+
+
+input[type=alphabutton], {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#title {
+  float:left;
+  color:white;
+  text-align: left;
+  font-size:20pt;
+  margin:10pt;
+  text-transform: uppercase;
+}
+
+#demo2 {
+  float:right;
+  color:white;
+  text-align: right;
+  font-size:15pt;
+  margin:10pt;
+}
+
+.topbar {
+    overflow-color:white;
+    background-color:black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.alphabutton {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  font-size: 15pt;
+  padding: 10px;
+  color: white;
+  background: linear-gradient(90deg, red, purple);;
+  border: 3px solid black;
+}
+
+#beta {
+  grid-column-start: 3;
+  grid-row-start: 3;
+  font-size: 15pt;
+  padding: 10px;
+  color: white; 
+  background: linear-gradient(90deg, blue, turquoise);;
+  border: 3px solid black;
+}
